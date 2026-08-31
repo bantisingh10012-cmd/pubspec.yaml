@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup Android Project Structure
         run: |
-          flutter create . --platforms=android --org com.novastream.downloader
+          flutter create . --platforms=android --org com.novastream.downloader --project-name novastream
 
       - name: Install Dependencies
         run: flutter pub get
