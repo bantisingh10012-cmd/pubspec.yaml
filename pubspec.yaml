@@ -1,0 +1,25 @@
+name: novastream
+description: "NovaStream Studio Pro - 10x Ultra Media Downloader"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  dio: ^5.4.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.2.0
+  open_file: ^3.3.2
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+
+flutter:
+  uses-material-design: true
+  
